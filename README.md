@@ -39,11 +39,11 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --icon=stonks_up.ico RAM_gui.py
 
 ### Explanation:
-# --onefile       : Bundles everything into a single .exe file
+### --onefile       : Bundles everything into a single .exe file
 ### --windowed      : Prevents a console window from opening (for GUI apps)
-# --icon          : Sets the application icon (make sure stonks_up.ico is in the same folder)
+### --icon          : Sets the application icon (make sure stonks_up.ico is in the same folder)
 ### RAM_gui.py      : Your main Python script
 
 ### 3. After running, the executable will be located in the 'dist' folder.
-#    You can run it directly from there:
+###    You can run it directly from there:
 ###    dist\RAM_gui.exe
