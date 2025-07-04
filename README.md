@@ -32,18 +32,18 @@ pip install pyqt6 psutil pyinstaller
 ## 🚀 Want to make an an executable?
 # Build executable with PyInstaller
 
-# 1. Install PyInstaller (if not already installed)
+### 1. Install PyInstaller (if not already installed)
 pip install pyinstaller
 
-# 2. Create the executable (one-file bundle, console hidden)
+### 2. Create the executable (one-file bundle, console hidden)
 pyinstaller --onefile --windowed --icon=stonks_up.ico RAM_gui.py
 
-# Explanation:
+### Explanation:
 # --onefile       : Bundles everything into a single .exe file
-# --windowed      : Prevents a console window from opening (for GUI apps)
+### --windowed      : Prevents a console window from opening (for GUI apps)
 # --icon          : Sets the application icon (make sure stonks_up.ico is in the same folder)
-# RAM_gui.py      : Your main Python script
+### RAM_gui.py      : Your main Python script
 
-# 3. After running, the executable will be located in the 'dist' folder.
+### 3. After running, the executable will be located in the 'dist' folder.
 #    You can run it directly from there:
-#    dist\RAM_gui.exe
+###    dist\RAM_gui.exe
